@@ -35,11 +35,7 @@ function App() {
             <Route path="/login">
               <Form />
             </Route>
-
           </Switch>
-
-
-
         </Router>
 
       </header>
