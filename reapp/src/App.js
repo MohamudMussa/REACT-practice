@@ -1,6 +1,6 @@
 import './App.css';
 import Form from './components/Form';
-import { BrowserRouter as Router, NavLink, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, NavLink, Switch, Route, Redirect } from "react-router-dom";
 import Home from './components/Home';
 <Form />
 
@@ -34,6 +34,10 @@ function App() {
 
             <Route path="/login">
               <Form />
+            </Route>
+
+            <Route path="/">
+              <Redirect to="/login" />
             </Route>
           </Switch>
         </Router>
