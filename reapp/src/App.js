@@ -19,7 +19,7 @@ function App() {
 
               <ul>
                 <li>
-                  <NavLink to="/login"> Log in</NavLink>
+                  <NavLink to="/login"> Log out</NavLink>
                 </li>
               </ul>
 
@@ -32,7 +32,7 @@ function App() {
 
             </Route>
 
-            <Route path="/login">
+            <Route path="/">
               <Form />
             </Route>
 
